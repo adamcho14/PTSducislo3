@@ -1,0 +1,21 @@
+Program funguje nasledovne
+
+Je 8 skupin po 4 narodne muzstva.
+V jeden den sa odohra 1 zapas v kazdej skupine.
+Kazde muzstvo hra v skupine 6 zapasov, s kazdym superom doma aj vonku.
+Po odohrati vsetkych skupin z kazdej skupiny postupia 2 najlepsie narodne vybery a vytvori
+sa finalna skupina zo 16 muzstiev. Kde sa zase hra systemom akzdy s kazdym doma aj vonku.
+Po odohrati vsetkych zapasov sa vyhodnoti celkovy vitaz a druhy najlepsi.
+
+Jeden zapas
+Vypise kto s kym hral, vysledok zapasu a v ktorych minutach padli goly.
+
+
+Ovladanie:
+Spusta sa iba subor FIFAWorldRanking.py
+ovlada sa pomocou prikazou:
+g.posunOden() - posunie o den, t.j. z kazdej skupiny sa odohra prave jeden zapas
+g.allZapasy() - odohra sa cely turnaj az do konca
+
+V subore FIFAWorldRanking.py je na uplnom spodku zakomentovany ##g.allZapasy()
+Ak ho odkomentujete, tak automaticky po spusteni zbehne cely program sam.
